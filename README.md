@@ -1,7 +1,7 @@
 # setup.sh
 *only tested on Ubuntu 19.04 but should theoretically work on any Ubuntu system*
 
-## how to use.
+## how to use
 ```
 wget https://raw.githubusercontent.com/ComputeHole/setup.sh/master/setup.sh
 chmod +x setup.sh
