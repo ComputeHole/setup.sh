@@ -12,12 +12,12 @@ sudo ./setup.sh
 
 ## what this does
 
-[setup.sh](setup.sh) will install and configure [Pi-hole](https://pi-hole.net), [unbound](https://nlnetlabs.nl/projects/unbound/about/), and [pivpn](https://pivpn.io) on your Ubuntu machine (real metal or VM).
+```[setup.sh](setup.sh)``` will install and configure [Pi-hole](https://pi-hole.net), [unbound](https://nlnetlabs.nl/projects/unbound/about/), and [pivpn](https://pivpn.io) on your Ubuntu machine (real metal or VM).
 
 ### configuration details
 
- * Pi-hole will use unbound on 127.0.0.1#5353 && ::1#5353
+ * Pi-hole will use unbound on ```127.0.0.1#5353``` && ```::1#5353```
  
- * openVPN will be configured as a split tunnel (only DNS traffic) on Pu.bl.ic.ip:80
+ * openVPN will be configured as a split tunnel (only DNS traffic) on ```Pu.bl.ic.ip:80```
  
- * openVPN will be configured as a full tunnel on Pu.bl.ic.ip:443
+ * openVPN will be configured as a full tunnel on ```Pu.bl.ic.ip:443```
