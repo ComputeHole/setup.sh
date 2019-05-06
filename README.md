@@ -16,7 +16,7 @@ sudo ./setup.sh
 
 ### configuration details
 
- * Pi-hole will use unbound on port 5353.
+ * Pi-hole will use unbound on 127.0.0.1#5353 && ::1#5353
  
  * openVPN will be configured as a split tunnel (only DNS traffic) on Pu.bl.ic.ip:80
  
