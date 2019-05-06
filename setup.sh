@@ -64,6 +64,11 @@ sudo sed -i 's/^PIHOLE_DNS_2=.*/PIHOLE_DNS_2=::1#5353/' /etc/pihole/setupVars.co
 
 sleep 5s
 
+echo "restarting Pi-hole"
+pihole restartdns
+
+sleep 5s
+
 echo "Installing pivpn"
 sudo ./install.pivpn.io
 
