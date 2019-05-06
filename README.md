@@ -12,7 +12,7 @@ sudo ./setup.sh
 
 ## what this does
 
-```[setup.sh](setup.sh)``` will install and configure [Pi-hole](https://pi-hole.net), [unbound](https://nlnetlabs.nl/projects/unbound/about/), and [pivpn](https://pivpn.io) on your Ubuntu machine (real metal or VM).
+[setup.sh](setup.sh) will install and configure [Pi-hole](https://pi-hole.net), [unbound](https://nlnetlabs.nl/projects/unbound/about/), and [pivpn](https://pivpn.io) on your Ubuntu machine (real metal or VM).
 
 ### configuration details
 
