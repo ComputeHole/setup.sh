@@ -18,6 +18,6 @@ sudo ./setup.sh
 
  * Pi-hole will use unbound on ```127.0.0.1#5353``` && ```::1#5353```
  
- * openVPN will be configured as a split tunnel (only DNS traffic) on ```Pu.bl.ic.ip:80```
+ * openVPN will be configured as a split tunnel (only DNS traffic) on ```Pu.bl.ic.ip:80``` with subnet ```10.80.0.x```
  
- * openVPN will be configured as a full tunnel on ```Pu.bl.ic.ip:443```
+ * openVPN will be configured as a full tunnel on ```Pu.bl.ic.ip:443``` with subnet ```10.4.43.x```
